@@ -1,0 +1,29 @@
+@use "card";
+@use "colors";
+
+:root{
+    --color-bg: #e4ebff;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-image: url(../images/pattern-background-desktop.svg), linear-gradient(colors.$PaleBlue 0% 100%);
+    background-size: 100% 50%, cover;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: calc(100vh - 20px);
+}
+
+figure{
+    margin: 0;
+}

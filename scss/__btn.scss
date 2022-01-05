@@ -1,0 +1,42 @@
+@use "colors";
+
+.btn{
+    text-decoration: none;
+}
+
+.btn--card--plan{
+    color: colors.$BrightBlue;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.btn--card--plan:hover{
+    color: rgba(56, 41, 224, 0.5);
+    text-decoration: none;
+}
+
+.btn--card--pay{
+    padding: 0.7em 0;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    background-color: colors.$BrightBlue;
+    box-shadow: 0 16px 8px colors.$PaleBlue;
+}
+
+.btn--card--pay:hover{
+    background-color: rgba(56, 41, 224, 0.5);
+}
+.btn--card--cancel{
+    padding: 0.7em 0;
+    border-radius: 12px;
+    text-align: center;
+    color: colors.$DesaturatedBlue;
+    background-color: transparent;
+}
+
+.btn--card--cancel:hover{
+    font-weight: bold;
+    color: rgb(27, 27, 27);
+}

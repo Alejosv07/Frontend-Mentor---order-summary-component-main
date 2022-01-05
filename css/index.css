@@ -1,0 +1,143 @@
+/*
+    Primary
+*/
+/*
+    Neutral
+*/
+.btn {
+  text-decoration: none;
+}
+
+.btn--card--plan {
+  color: #3829e0;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.btn--card--plan:hover {
+  color: rgba(56, 41, 224, 0.5);
+  text-decoration: none;
+}
+
+.btn--card--pay {
+  padding: 0.7em 0;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  background-color: #3829e0;
+  box-shadow: 0 16px 8px #e0e8ff;
+}
+
+.btn--card--pay:hover {
+  background-color: rgba(56, 41, 224, 0.5);
+}
+
+.btn--card--cancel {
+  padding: 0.7em 0;
+  border-radius: 12px;
+  text-align: center;
+  color: #7280a7;
+  background-color: transparent;
+}
+
+.btn--card--cancel:hover {
+  font-weight: bold;
+  color: #1b1b1b;
+}
+
+.card {
+  border-radius: 12px;
+  background-color: #f5f7ff;
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.card__img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  overflow: hidden;
+}
+.card__img > .img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card__body__title {
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 0;
+}
+.card__body__text {
+  width: 100%;
+  font-size: 16px;
+  color: #7280a7;
+  text-align: center;
+  line-height: 1.5;
+}
+.card__plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  padding: 0 1em;
+  margin: 0 1em;
+  width: 322px;
+  border-radius: 12px;
+  background-color: #e0e8ff5b;
+}
+.card__plan__body {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.card__plan__details {
+  font-size: 0.8rem;
+}
+.card__plan__details__title {
+  font-weight: 900;
+}
+.card__footer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1em;
+  gap: 1em;
+  padding-bottom: 1em;
+}
+
+:root {
+  --color-bg: #e4ebff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-image: url(../images/pattern-background-desktop.svg), linear-gradient(#e0e8ff 0% 100%);
+  background-size: 100% 50%, cover;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: calc(100vh - 20px);
+}
+
+figure {
+  margin: 0;
+}
+
+/*# sourceMappingURL=index.css.map */
